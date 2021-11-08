@@ -7,7 +7,7 @@ import {
   updateProfile
 } from "firebase/auth";
 import React, { useContext, useEffect, useState } from "react";
-import "../firebaseConfig";
+import "../firebase";
 
 const AuthContext = React.createContext();
 

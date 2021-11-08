@@ -12,7 +12,7 @@ const Account = () => {
             account_circle
           </span>
           <span>{currentUser.displayName}</span>
-          <span class="material-icons-outlined" onClick={logout} title="Logout">
+          <span className="material-icons-outlined" onClick={logout} title="Logout">
             {" "}
             logout
           </span>

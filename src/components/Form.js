@@ -1,11 +1,11 @@
-import classes from '../styles/Form.module.css';
+import classes from "../styles/Form.module.css";
 
-const Form = ({children, className, ...rest}) => {
-    return (
-        <form className={`${className} ${classes.form}`} {...rest} action="#"> 
-        {children}
-        </form>
-    );
+const Form = ({ children, className, ...rest }) => {
+  return (
+    <form className={`${className} ${classes.form}`} {...rest} action="#">
+      {children}
+    </form>
+  );
 };
 
 export default Form;
